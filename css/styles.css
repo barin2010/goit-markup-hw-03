@@ -20,7 +20,9 @@
   background-color: var(--basic-white-color);
 }
 
-/* .header { }*/
+.header {
+  border-bottom: 1px solid #e7e9fc
+ }
 .div-header-menu{
   display: flex;
 }
@@ -78,6 +80,7 @@ gap: 40px
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0
 }
 .header-menu-item:hover,
 .header-menu-item:focus {
