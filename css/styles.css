@@ -196,6 +196,7 @@ gap: 40px
 .strategy-list {
   display: flex;
   gap: 24px;
+  
 }
 
 .strategy-page {
@@ -244,11 +245,12 @@ img{
 .doing-list {
   display: flex;
   gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 
 
 .doing-images {
-  width: calc((100% - 48px) / 3);
+  
 }
 
 /* --------------------------------------our team ----------------------------------------- */
@@ -271,13 +273,14 @@ img{
 .team-list{
 display: flex;
 gap: 24px;
+width: calc((100% - 72px) / 4);
 }
  
 
 
 .team-images {
   background-color: var(--basic-white-color);
-  width: calc((100% - 72px) / 4);
+  
   border-radius: 0px 0px 4px 4px;
 }
 .box-team-description{
@@ -398,10 +401,11 @@ gap: 24px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .concept-images {
-  width: calc((100% - 48px) / 3);
+ 
 }
 
 /* .images-logo {
