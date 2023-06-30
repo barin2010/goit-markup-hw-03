@@ -21,9 +21,19 @@
 }
 
 /* .header { }*/
+.div-header-menu{
+  display: flex;
+}
+.container{
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+}
 
-/* .header-menu {
-} */
+.header-menu {
+  display: flex;
+  align-items: center;
+}
 
 .link {
   text-decoration: none;
@@ -41,6 +51,7 @@
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px
 }
 .header-studio {
   color: var(--primary-black-color);
@@ -52,9 +63,10 @@
   text-transform: uppercase;
 }
 
-/* .header-list {
- 
-  } */
+.header-list {
+display: flex;
+gap: 40px
+}
 
 /* .header-list-menu {
   
@@ -79,8 +91,12 @@
 .header-address {
   font-style: normal;
 }
+  
 
-/* .address {} */
+.address {
+  display: flex;
+  gap: 40px;
+}
 
 .address-contacts {
   color: var(--secondary-black-color);
